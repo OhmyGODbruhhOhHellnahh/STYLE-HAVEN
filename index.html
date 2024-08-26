@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- bootstrap link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body class="m-0 p-0">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#" style="font-family: cursive;font-size: 150%; color: rgb(217, 111, 95);;">Style Haven</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+            <ul class="navbar-nav ">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">New In</a>
+              </li>
+            
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop Woman</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shop Man</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              
+              <li class="nav-item d-sm-block d-md-none d-lg-none">
+                <a class="nav-link" href="signup.html">Sign up</a>
+              </li>
+            </ul>
+
+           
+           
+          </div>
+          <a class="nav-link d-none d-lg-block" href="signup.html">Sign up</a>
+        </div>
+      
+      </nav>
+      <!-- Landing page -->
+        <!-- <section class="container-fluid" style="height: 90vh; padding: 0;">
+          <div class="row p-0 m-0" style="height: 90vh; width: 100%;">
+            <div class="col-lg-12 m-0 p-0" style="height: 100vh; width: 100%; background-color: black; " >
+              <img src="dooley.avif" alt="" class="img-fluid" style="object-fit: cover; height: 100vh; width: 100%; opacity: 0.4;">
+              
+            </div>
+
+          </div>
+
+         
+        </section> -->
+        <section id="carouselExampleCaptions" class="carousel slide" style="height: 90vh;">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+           
+          </div>
+          <div class="carousel-inner" style="height: 90vh;">
+            <div class="carousel-item active">
+             <div style="background-color: black;">
+              <img src="dooley.avif" class="d-block w-100 img-fluid"  alt="..." style="height: 90vh; width: 100%;object-fit: cover; opacity: 0.7;">
+             </div>
+              <div class="carousel-caption d-none d-md-block">
+                <h1 style=" font-size: 28px;">SHOP WITH STYLE MIRACLE</h1>
+            <p style="font-size: 17px;">Elevate your style with MIRACLE SHOP. Fashion that speaks volume</p>
+              </div>
+              <div class="carousel-caption d-md-none d-sm-block">
+                <h1 style=" font-size: 28px;">SHOP WITH STYLE HAVEN</h1>
+            <p style="font-size: 17px;">Elevate your style with STYLE HAVEN. Fashion that speaks volume</p>
+              </div>
+            </div>
+            <div class="carousel-item" >
+             <div style="background-color: black;">
+              <img src="shopshop.avif" class="d-block w-100 img-fluid" alt="..." style="height: 90vh; width: 100%; object-fit: cover; opacity: 0.7;">
+             </div>
+             <div class="carousel-caption d-none d-md-block">
+              <h1 style=" font-size: 28px;">SHOP WITH STYLE HAVEN</h1>
+          <p style="font-size: 17px;">Iconic style, timeless comfort, Step into a pair of STYLE HAVEN</p>
+            </div>
+            <div class="carousel-caption d-md-none d-sm-block">
+              <h1 style=" font-size: 28px;">SHOP WITH STYLE HAVEN</h1>
+          <p style="font-size: 17px;">Iconic style, timeless comfort, Step into a pair of STYLE HAVEN</p>
+            </div>
+            </div>
+        
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </section>
+        
+ 
+        <section class="container">
+          <div class="row d-flex justify-content-center" >
+            <div class="col-lg-6 P-4 my-5">
+             <div style="justify-content: center; width: 100%; text-align: center;">
+              <img src="REPRESENT Men's Sweatshirt in Rose-pink Cotton in Rose_Pink _ SS24.jpg" alt="" class="img-fluid" style="object-fit: contain; height: 600px; width: 500px;">
+             </div>
+              <div style="margin-top: 10px; justify-content: center; text-align: center;">
+                <h5>MEN SALE</h5>
+                <a href="" class="text-decoration-none text-dark" >SHOP NOW</a>
+              </div>
+
+              
+            </div>
+            <div class="col-lg-6 P-4 my-5">
+              <div style="justify-content: center; width: 100%; text-align: center;">
+               <img src="bngfsefj.jpg" alt="" class="img-fluid" style="object-fit: contain; height: 600px; width: 500px;">
+              </div>
+               <div style="margin-top: 10px; justify-content: center; text-align: center;">
+                 <h5>WOMEN SALE</h5>
+                 <a href="" class="text-decoration-none text-dark">SHOP NOW</a>
+               </div>
+ 
+               
+             </div>
+           
+
+          </div>
+
+        </section>
+        <section>
+          <div class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+              <img src="..." class="rounded me-2" alt="...">
+              <strong class="me-auto">Bootstrap</strong>
+              <small>11 mins ago</small>
+              <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body">
+              Hello, world.. SHOP WITH STYLE HAVEN
+            </div>
+          </div>
+        </section>
+ 
+        <section>
+      
+       <section class="container  p-4 ">
+        
+        <div class="row d-flex justify-content-center gap-2">
+          <h2 class="justify-content-center py-3 fw-bold d-flex" style=" letter-spacing: 2px; font-family: sans-serif;"> NEW ARRIVALS </h2>
+          <div class="card" style="width: 300px; background-color: unset; border: 0;">
+            <img src="noice.jpg" alt="" class="card-img-top img-fluid" style="width: 100%; object-fit: contain; box-shadow: 0 0 10px;">
+            <div class="card-body text-center p-0">
+              <p class="card-text pt-2" style="font-size: 12px; letter-spacing: 1px ;">
+                STYLE HAVEN FEMALE DRESS 100% COTTON
+              </p>
+              <a href="" class="btn p-0 mb-3" style="font-size: 14px; border-bottom: 2px solid gray; border-radius: 0;"> SHOP NOW </a>
+  
+            </div>
+  
+          </div>
+          <div class="card" style="width: 300px; background-color: unset; border: 0;">
+            <img src="lmao.jpg" alt="" class="card-img-top img-fluid" style="width: 100%; object-fit: contain; box-shadow: 0 0 10px;">
+            <div class="card-body text-center p-0">
+              <p class="card-text pt-2" style="font-size: 12px; letter-spacing: 1px ;">
+                STYLE HAVEN FEMALE DRESS 100% COTTON
+              </p>
+              <a href="" class="btn p-0 mb-3" style="font-size: 14px; border-bottom: 2px solid gray; border-radius: 0;"> SHOP NOW </a>
+  
+            </div>
+  
+          </div><div class="card" style="width: 300px; background-color: unset; border: 0;">
+            <img src="category.jpg" alt="" class="card-img-top img-fluid" style="width: 100%; object-fit: contain; box-shadow: 0 0 10px;">
+            <div class="card-body text-center p-0">
+              <p class="card-text pt-2" style="font-size: 12px; letter-spacing: 1px ;">
+                STYLE HAVEN FEMALE DRESS 100% COTTON
+              </p>
+              <a href="" class="btn p-0 mb-3" style="font-size: 14px; border-bottom: 2px solid gray; border-radius: 0;"> SHOP NOW </a>
+  
+            </div>
+  
+          </div><div class="card" style="width: 300px; background-color: unset; border: 0;">
+            <img src="lol.jpg" alt="" class="card-img-top img-fluid" style="width: 100%; object-fit: contain; box-shadow: 0 0 10px;">
+            <div class="card-body text-center p-0">
+              <p class="card-text pt-2" style="font-size: 12px; letter-spacing: 1px ;">
+                STYLE HAVEN FEMALE DRESS 100% COTTON
+              </p>
+              <a href="" class="btn p-0 mb-3" style="font-size: 14px; border-bottom: 2px solid gray; border-radius: 0;"> SHOP NOW </a>
+  
+            </div>
+  
+          </div>
+        </div>
+        
+        
+        
+
+       </section>
+        
+       
+        <section class="container" >
+          <div class=" row justify-content-center" style="display: flex;">
+            <div class="col-lg-6 P-4 my-5">
+              <div style="justify-content: center; width: 100%; text-align: center;">
+               <img src="ahh kmao.jpeg" alt="" class="img-fluid" style="object-fit: contain; height: 400px; width: 300px;">
+              </div>
+               <div style="margin-top: 10px; justify-content: center; text-align: center;">
+                 <h5 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Shirt for boys</h5>
+                 <button type="button" class="btn btn-secondary" style="font-family: cursive; margin-right: 3px;">View Collection</button>
+                 
+               </div>
+  
+               
+             </div>
+             <div class="col-lg-6 P-4 my-5">
+              <div style="justify-content: center; width: 100%; text-align: center;">
+               <img src="baeb sec.jpeg" alt="" class="img-fluid" style="object-fit: contain; height: 400px; width: 300px;">
+              </div>
+               <div style="margin-top: 10px; justify-content: center; text-align: center;">
+                 <h5 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Shirt for girls</h5>
+                 <button type="button" class="btn btn-secondary" style="margin-right: 3px; font-family: cursive;" >View Collection</button>
+                 
+               </div>
+  
+               
+             </div>
+  
+
+          </div>
+          
+        </section>
+        <section class="container p-5 d-none d-lg-block" style="height: 80vh; margin-top: 80px; ">
+          <div class="row d-flex" style="height: 60vh; background-color: rgb(194, 194, 194);">
+            <div class="col-lg-4 position-relative">
+              <img src="COOK-removebg-preview.png" alt="" style="height: 600px; width: 400px; z-index: 1; top: -90px; object-fit: contain; margin-bottom: 20px;" class="position-absolute img-fluid ">
+
+            </div>
+            <div class="col-lg-4 text-center my-auto">
+              <h3 style="letter-spacing: 2px; color: rgb(217, 111, 95);">WHITE HOT</h3>
+              <h5 style="font-size: 18px; color: rgb(217, 111, 95);">Clean. Crisp, Never goes out of style.</h5>
+              <button type="button" class="btn btn-lg" style="background-color: white; color:  rgb(217, 111, 95); border-radius: unset; margin-top: 20px;">SHOP WHITE OUTFIT</button>
+
+            </div>
+            <div class="col-lg-4 position-relative">
+              <img src="BISMIKLAHH-removebg-preview.png" alt="" style="height: 600px; width: 400px; z-index: 1; top: -90px; margin-bottom: 20px; object-fit: contain;" class="position-absolute img-fluid">
+
+            </div>
+
+          </div>
+
+        </section>
+        <section class="container d-sm-block d-lg-none" style="background-color: rgb(194, 194, 194 0.807);">
+          <div class="row">
+            <div class="col-sm-12 position-relative">
+              <img src="femwhite.jpg" alt="" class="img-fluid" style="width: 100%; height: 650px; object-fit: contain;">
+
+              <div class="col-sm-12 text-center my-auto p-5 position-absolute" style="bottom: 50px;">
+                <h3 style="letter-spacing: 1px; color: rgb(217, 111, 95);">WHITE HOT</h3>
+                <h5 style="font-size: 18px; color: rgb(217, 111, 95);">Clean. Crisp, Classic. Never goes out of style.</h5>
+                <button type="button" class="btn btn-lg" style="background-color: white; color:  rgb(217, 111, 95); border-radius: unset; margin-top: 20px;">SHOP WHITE OUTFIT</button>
+  
+              </div>
+            </div>
+            
+
+          </div>
+
+
+        </section>
+       
+    
+
+    
+        <section class="container ">
+         <center>
+          <div class="row d-flex justify-content-center" >
+            <h1 class="justify-content-center py-3 d-flex pb-5">
+              CATEGORIES 
+            </h1>
+            <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+              <a href="" > <img src="werey omo.jpg" alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray; "></a>
+              <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> Jeans </h3>
+          
+              
+
+      
+            </div>
+          <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+             <a href="" > <img src="lalalalalaa.jpg" alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray;"></a>
+            <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> Shorts </h3>
+                        
+
+          </div>
+            <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+              <a href="" > <img src="suwi three.jpg " alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray;"></a>
+              <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> Bags </h3>
+          
+              
+
+            </div>
+            <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+              <a href="" > <img src="kith maddd.jpg" alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray;"></a>
+              <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> Outwear </h3>
+          
+              
+
+            </div>
+            <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+              <a href="" > <img src="crista ronaldoo.jpg" alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray"></a>
+              <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> TShirts </h3>
+          
+              
+
+            </div>
+            <div class="col-lg-2" style="height: 200px; margin-bottom: 80px;">
+              <a href="" > <img src="wawee.webp" alt=" style haven jeans" class="btn-lg rounded-circle border-2" style="height: 200px; width: 200px; box-shadow: 0 0 15px gray;"></a>
+              <h3 class="text-center py-2 ps-2" style="letter-spacing: 1px;"> Accessories </h3>
+          
+              
+
+            </div>
+
+          </div>
+         </center>
+          
+
+        </section>
+   
+        <section class="container-fluid mt-4" style="height: 110vh; background-color: black;">
+          <div class="row text-center" style="height:110vh ; align-items: center;">
+            <div class="col-lg-4 position-relative">
+              <div class="position-absolute  translate-middle start-50 text-center p-4" style="height: 300px; width: 350px; margin-top: 50px;">
+                <h6 style="font-size: 20px; color: grey;">
+                  ALL DUTIES PAID
+                </h6>
+                <p>STYLE HAVEN will pay all duties and taxes on international orders. Only pay the price of your order.</p>
+                <i class="fa-solid fa-square-check" style="font-size: 45px; color: rgb(217, 111, 95);"></i>
+
+              </div>
+
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="position-absolute  translate-middle start-50 text-center p-4" style="height: 300px; width: 350px; margin-top: 50px;">
+                <h6 style="font-size: 20px; color:grey;">
+                  EXPRESS DELIVERY
+                </h6>
+                <p>We dispatch all orders placed by 2pm on the same day. We use express courier services and dispatch riders</p>
+                <i class="fa-solid fa-truck"style="font-size: 45px; color: rgb(217, 111, 95);"></i>
+                
+              </div>
+
+            </div>
+            <div class="col-lg-4 position-relative">
+              <div class="position-absolute  translate-middle start-50 text-center p-4" style="height: 300px; width: 350px; margin-top: 50px;">
+                <h6 style="color: grey; font-size: 20px;">
+                  FREE RETURNS
+                </h6>
+                <p>We offer a concierge collection service for unwanted returns. This is totally free of charge to customers.</p>
+                <i class="fa-solid fa-arrow-right-arrow-left"style="font-size: 45px; color: rgb(217, 111, 95);"></i>
+              </div>
+
+            </div>
+
+          </div>
+
+        </section>
+
+        <section class="text-light p-5" style="background-color: rgb(217, 111,95);">
+          <div class="container">
+            <div class="justify-content align-items-center d-md-flex">
+              <h3 class="mb-3 col-md-6">
+                Sign up for our newsletter
+              </h3>
+              <div class="input-group news-input">
+                <input type="text" class="form-control" placeholder="Enter your email address">
+                <button class="btn btn-dark btn-lg" type="button">Submit</button>
+
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <footer class="bg-dark text-center text-light p-5 position-relative">
+          <div class="container">
+            <div class="p-2">
+              <i class="fa-brands fa-square-instagram" style="color: aliceblue;"></i>
+              <i class="fa-brands fa-facebook-messenger" style="color: aliceblue;"></i>
+              <i class="fa-brands fa-x-twitter" style="color: aliceblue;"></i>
+            </div>
+            <p>
+              Copyright &COPY; 2024 STYLE HAVEN
+            </p>
+            <a href="#" class="position-absolute p-5 bottom-0 end-0">
+              <i class="fa-solid  fa-circle-arrow-up bottom-0 end-0" style="color: rgb(217, 111, 95); font-size: 35px;"></i>
+            </a>
+          </div>
+        </footer>
+      
+       
+        
+       
+
+
+
+      
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
